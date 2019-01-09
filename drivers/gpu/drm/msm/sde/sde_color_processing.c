@@ -28,10 +28,6 @@
 #include "dsi_panel.h"
 #include "sde_hw_color_processing.h"
 
-#if 1
-#include <linux/uci/uci.h>
-#endif
-
 struct sde_cp_node {
 	u32 property_id;
 	u32 prop_flags;
